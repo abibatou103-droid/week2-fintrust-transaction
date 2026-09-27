@@ -1,0 +1,11 @@
+feature,coef
+cat__Location_Missing,-0.35403779924405854
+cat__Transaction_Type_Deposit,-0.3518499969107808
+cat__Transaction_Type_Card Purchase,-0.32592124298229763
+cat__Device_Type_Missing,-0.3241668345784279
+cat__Transaction_Type_Bill Payment,-0.318423199279249
+num__Transaction_Hour,-0.2661893570672623
+cat__Amount_Band_<1k,-0.14610221483557803
+cat__Tenure_Bucket_13-24,-0.12749326492998383
+cat__Account_Status_Active,-0.12523639365880812
+cat__Transaction_Type_Airtime/Data,-0.12040429424525717

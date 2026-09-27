@@ -1,0 +1,48 @@
+{
+  "customer_records": 1500,
+  "transaction_records": 12000,
+  "joined_records": 12000,
+  "customer_columns": [
+    "Customer_ID",
+    "Customer_Name",
+    "Age",
+    "Gender",
+    "City",
+    "Customer_Segment",
+    "Account_Type",
+    "Tenure_Months",
+    "Digital_Engagement_Score",
+    "Monthly_Income_Band",
+    "Preferred_Channel",
+    "Account_Status"
+  ],
+  "transaction_columns": [
+    "Transaction_ID",
+    "Customer_ID",
+    "Transaction_DateTime",
+    "Transaction_Type",
+    "Amount_NGN",
+    "Channel",
+    "Device_Type",
+    "Location",
+    "International_Transaction",
+    "Transaction_Status",
+    "Risk_Review_Flag"
+  ],
+  "duplicate_customer_rows": 0,
+  "duplicate_transaction_rows": 0,
+  "missing_values_customer": {},
+  "missing_values_transaction": {
+    "Device_Type": 96,
+    "Location": 96
+  },
+  "target_distribution": {
+    "0": 9648,
+    "1": 2352
+  },
+  "dataset_notes": [
+    "Device_Type and Location have 96 missing values in the transaction dataset.",
+    "The merged modelling dataset preserves a one-to-many relationship between customer and transaction records.",
+    "The target variable is synthetic and should be treated as educational only."
+  ]
+}

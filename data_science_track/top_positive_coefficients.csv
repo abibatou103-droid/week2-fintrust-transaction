@@ -1,0 +1,11 @@
+feature,coef
+cat__Transaction_Type_Transfer,0.5638642946362235
+cat__Transaction_Type_Cash Withdrawal,0.5236105483877971
+num__Amount_NGN,0.3286157636138032
+cat__Device_Type_ATM Terminal,0.1893345841138417
+num__Is_International,0.18781445825904247
+cat__Account_Status_Restricted,0.1410600711215231
+cat__Location_Benin City,0.13729470204565586
+cat__Tenure_Bucket_85+,0.12748602583961022
+cat__Digital_Engagement_Band_Low,0.1209129504255243
+num__Is_Failed,0.11695804155192434
